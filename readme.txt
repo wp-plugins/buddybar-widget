@@ -41,3 +41,8 @@ The widget only shows links for the components that are turned on.
 
 = 0.1 =
 Plugin created.
+
+== Upgrade Notice ==
+
+= 0.1 =
+Plugin released.
