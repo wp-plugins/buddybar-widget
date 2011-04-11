@@ -4,7 +4,7 @@ Donate link: http://slushman.com/
 Tags: buddypress, buddybar, widget
 Requires at least: 2.9.1
 Tested up to: 3.1
-Stable tag: 3.0
+Stable tag: 0.1
 
 The BuddyBar Widget places all the links on BuddyPress’s BuddyBar in a sidebar widget.
 
