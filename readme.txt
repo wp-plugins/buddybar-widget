@@ -3,15 +3,15 @@ Contributors: slushman
 Donate link: http://slushman.com/
 Tags: buddypress, buddybar, widget
 Requires at least: 2.9.1
-Tested up to: 3.1
-Stable tag: 0.1
+Tested up to: 3.2
+Stable tag: 0.15
 License: GPLv2
 
 The BuddyBar Widget places all the links on BuddyPress’s BuddyBar in a sidebar widget.
 
 == Description ==
 
-The BuddyBar Widget was originally developed for the Towermix Network at Belmont University‘s Curb College of Entertainment and Music Business.  They didn’t want the BuddyBar from the default installation of BuddyPress, but still needed the links for editing profiles, etc.  The BuddyBar Widget places all the links on BuddyPress’s BuddyBar in a sidebar widget.
+The BuddyBar Widget was originally developed for the Towermix Network at Belmont University‘s Curb College of Entertainment and Music Business. The BuddyBar Widget places all the links on BuddyPress’s BuddyBar in a sidebar widget, so you can hide the BuddyBar without losing all the funcitonality.
 
 Features
 
@@ -39,10 +39,17 @@ The widget only shows links for the components that are turned on.
 
 == Changelog ==
 
+= 0.15 =
+Added support for Buddypress 1.5.
+Updated deprecated function for user profile link.
+
 = 0.1 =
 Plugin created.
 
 == Upgrade Notice ==
+
+= 0.15 =
+Added support for Buddypress 1.5 and updated user profile link from deprecated code.
 
 = 0.1 =
 Plugin released.
