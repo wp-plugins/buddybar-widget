@@ -1,22 +1,24 @@
 === BuddyBar Widget ===
 Contributors: slushman
-Donate link: http://slushman.com/
+Donate link: http://slushman.com
 Tags: buddypress, buddybar, widget
 Requires at least: 2.9.1
-Tested up to: 3.2
-Stable tag: 0.15
-License: GPLv2
+Tested up to: 4.3
+Stable tag: 0.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-0.2.html
 
 The BuddyBar Widget places all the links on BuddyPress’s BuddyBar in a sidebar widget.
 
 == Description ==
 
-The BuddyBar Widget was originally developed for the Towermix Network at Belmont University‘s Curb College of Entertainment and Music Business. The BuddyBar Widget places all the links on BuddyPress’s BuddyBar in a sidebar widget, so you can hide the BuddyBar without losing all the funcitonality.
+The BuddyBar Widget places all the links on BuddyPress’s BuddyBar in a sidebar widget, so you can hide the BuddyBar without losing all the funcitonality.
 
 Features
 
 * When a user is not logged in, the widget shows a login form (with a link to the registration page at the bottom)
 * When a user is logged in, it shows all the links a user would need to manage their account
+* The BuddyBar links are based on what BuddyPress components are activated.
 * Multiple Instances are possible.
 
 == Installation ==
@@ -39,6 +41,12 @@ The widget only shows links for the components that are turned on.
 
 == Changelog ==
 
+= 0.2 =
+* Restructured plugin using WordPress Plugin Boilerplate.
+* Ensured compatibility with WordPress 4.3 and BuddyPress 2.3.
+* Better escaping and translatability.
+* Removed floats from module styling.
+
 = 0.15 =
 Added support for Buddypress 1.5.
 Updated deprecated function for user profile link.
@@ -47,6 +55,9 @@ Updated deprecated function for user profile link.
 Plugin created.
 
 == Upgrade Notice ==
+
+= 0.2 =
+Fully compatible with WordPress 4.3 and BuddyPress 2.3!
 
 = 0.15 =
 Added support for Buddypress 1.5 and updated user profile link from deprecated code.
